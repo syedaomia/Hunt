@@ -1,0 +1,2037 @@
+.clr {
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.title {
+
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.title h1 {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+
+.title p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #353535;
+    width: 567px;
+    margin: 0 auto;
+
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.sticky{
+    width:100%;
+    position: fixed !important;
+    background-color: black;
+    top: 0 !important;
+    
+}
+
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+
+
+/*=================================
+          navbar css start
+===================================*/
+nav {
+    background-color: transparent;
+    border-bottom: 2px solid rgba(254, 198, 0, 0.2);
+    position: absolute !important;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav button i{
+    color: white;
+}
+
+
+
+nav ul li {
+    margin-right: 30px;
+    position: relative;
+}
+
+
+nav ul li a {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: .4s;
+
+}
+
+
+
+nav ul li a:after {
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    background-color: #fec600;
+    transition: .4s;
+    content: "";
+    border-radius: 2px;
+
+}
+
+
+
+nav ul li a:hover {
+    color: #fec600;
+}
+
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+
+
+
+/*=================================
+          navbar css end
+===================================*/
+
+
+
+/*=================================
+          banner css start
+===================================*/
+
+#banner-part {
+    position: relative;
+}
+
+
+#banner-part .banner {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+    height: 650px;
+
+
+}
+
+
+#banner-part .banner2 {
+    background: url(../image/banner3.png) no-repeat center;
+    background-size: cover;
+    height: 650px;
+
+
+}
+
+
+#banner-part .banner3 {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+    height: 650px;
+
+
+}
+
+
+
+
+
+#banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding-bottom: 187px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+
+#banner-part .overlay h3 {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding-top: 220px;
+
+
+}
+
+#banner-part .overlay h1 {
+    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fec600;
+    margin-top: 4px;
+    text-transform: uppercase;
+
+}
+
+
+#banner-part .overlay p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 545px;
+    margin: 0 auto;
+    line-height: 1.5;
+
+    margin-top: 18px;
+    margin-bottom: 60px;
+
+}
+
+
+#banner-part .overlay a {
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 20px;
+    background-color: transparent;
+    margin-left: 20px;
+    transition: .4s;
+    border: 1px solid white;
+
+}
+
+#banner-part .overlay a:hover {
+    color: black;
+    background-color: #fec600;
+    border: 1px solid #fec600;
+
+}
+
+
+
+
+#banner-part .prev {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    color: white;
+
+
+    font-size: 35px;
+    z-index: 1;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+
+#banner-part .prev:hover {
+    color: #fec600;
+}
+
+
+
+#banner-part .next {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    color: white;
+
+
+    font-size: 35px;
+    z-index: 9999;
+
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+
+#banner-part .next:hover {
+    color: #fec600;
+
+}
+
+
+
+/*=================================
+          banner css end
+===================================*/
+
+
+
+/*============================
+    banner shape css start
+==============================*/
+#banner-shape {
+
+    position: relative;
+}
+
+
+
+#banner-shape .shape {
+    width: 100%;
+    height: 306px;
+    background-color: white;
+    transform: skew(-87.2deg);
+    transform-origin: left bottom;
+    position: absolute;
+    top: -294px;
+    left: -244px;
+
+
+
+}
+
+/*============================
+    banner shape css end
+==============================*/
+
+
+
+/*============================
+    about part css start
+==============================*/
+
+#about-part {
+    margin-top: 35px;
+}
+
+
+#about-part .img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid black;
+
+
+
+    text-align: center;
+    line-height: 350px;
+    overflow: hidden;
+
+}
+
+#about-part .img img {
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+}
+
+
+
+
+#about-part .item {
+
+    width: 100%;
+
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 30px 16px;
+    margin: 30px 0;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+
+
+#about-part .item h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+
+
+}
+
+#about-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 24px;
+    width: 305px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+
+#about-part #triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 15px solid #eeeeee;
+    border-bottom: 20px solid transparent;
+
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+
+}
+
+#about-part #triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 15px solid #eeeeee;
+    border-bottom: 20px solid transparent;
+
+
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+}
+
+
+
+
+#about-part #triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #eeeeee;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+
+
+
+#about-part #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 15px solid #eeeeee;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+#about-part .item .top {
+    position: absolute;
+    bottom: -23px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+
+}
+
+
+
+
+#about-part .item .right {
+    position: absolute;
+    top: 50%;
+    right: -38px;
+    transform: translateY(-50%)
+}
+
+
+#about-part .item .left {
+    position: absolute;
+    top: 50%;
+    left: -38px;
+    transform: translateY(-50%)
+}
+
+
+#about-part .item .bottom {
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+}
+
+#about-part .item:hover {
+    filter: drop-shadow(8px 8px 4px #d1d1d1);
+    transition: .3s;
+}
+
+
+#about-part .item3:hover {
+    filter: drop-shadow(-8px 8px 4px #d1d1d1);
+    transition: .3s;
+}
+
+
+#about-part .item4:hover {
+    filter: drop-shadow(8px -8px 4px #d1d1d1);
+    transition: .3s;
+}
+
+
+
+
+
+
+#about-part .item:hover i {
+
+    color: #fec600;
+    transition: .3s;
+
+}
+
+
+
+
+
+/*============================
+    about part css end
+==============================*/
+
+
+
+/*============================
+    port-shape css start
+==============================*/
+#port-shape {
+
+    position: relative;
+}
+
+
+
+#port-shape .shape {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    transform: skew(-87.2deg);
+    transform-origin: right top;
+    position: absolute;
+    top: 22px;
+    left: 267px;
+
+}
+
+/*============================
+    port-shape css end
+==============================*/
+#port-part {
+    background: url(../image/portimg.png) no-repeat center;
+    background-size: cover;
+
+    margin-top: 35px;
+
+}
+
+
+#port-part .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 100px 0;
+}
+
+
+#port-part .overlay h1 {
+    color: white !important;
+}
+
+#port-part .overlay p {
+    color: white !important;
+}
+
+#port-part .container .mar {
+    margin-bottom: 30px;
+}
+
+
+
+#port-part .smallimg img {
+
+    width: 100%;
+
+}
+
+
+#port-part .bigimg img {
+
+    width: 100%;
+
+}
+
+
+
+#port-part .img {
+    position: relative;
+}
+
+
+
+#port-part .img .overlay {
+    width: 100.1%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    transform: scale(0)
+}
+
+
+
+#port-part .img:hover .overlay {
+    transform: scale(1.005);
+}
+
+
+#port-part .img i {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .4s;
+    cursor: pointer;
+
+    font-size: 35px;
+    color: white;
+}
+
+
+
+/*============================
+    pport-shape css start
+==============================*/
+#pport-shape {
+
+    position: relative;
+}
+
+
+
+#pport-shape .shape {
+    width: 100%;
+    height: 307px;
+    background-color: white;
+    transform: skew(-87.2deg);
+    transform-origin: left bottom;
+    position: absolute;
+    top: -294px;
+    left: -244px;
+
+}
+
+/*============================
+    pport-shape css end
+==============================*/
+
+
+
+/*============================
+    service-part css start
+==============================*/
+
+#service-part {
+    margin-top: 35px;
+    position: relative;
+}
+
+
+
+#service-part .restitle{
+    display: none;
+}
+
+
+#service-part .line {
+    background: url(../image/line.png) center;
+    background-repeat: repeat-y;
+    height: 789px;
+    width: 2px;
+    position: absolute;
+    top: 199px;
+    left: 49%;
+    transform: translateX(-50%);
+    transform: scale(1.0)
+}
+
+
+
+#service-part .service-slider {
+    margin-top: 130px;
+}
+
+#service-part .service-slider .item {
+    height: 200px;
+    width: 950px !important;
+    margin-top: 19px;
+
+
+    display: flex;
+    /* if we dont give display flex, we won't get float right,justify-content,align-items */
+    float: right !important;
+    justify-content: space-between;
+
+}
+
+#service-part .service-slider .item .left {
+    width: 30%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+
+}
+
+#service-part .service-slider .item .middle {
+    width: 10%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#service-part .service-slider .item .middle .img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+
+    transition: .4s;
+}
+
+
+
+#service-part .service-slider .item .right {
+    width: 50%;
+
+
+    position: relative;
+}
+
+#service-part .service-slider .item .right #triangle-lleft {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 15px solid #f1f1f1;
+    border-bottom: 20px solid transparent;
+
+
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+#service-part .service-slider .item .right .text {
+
+    background: #f1f1f1;
+    padding: 40px 25px;
+
+
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #353535;
+    width: 480px;
+    margin: 0 auto;
+
+
+}
+
+
+#service-part .service-slider .slick-current .right .textt {
+    filter: drop-shadow(-8px 8px 4px #d1d1d1) !important;
+    transition: .3s;
+}
+
+
+
+
+/*---------------------item2-------------------*/
+
+
+#service-part .service-slider .item2 {
+
+    width: 900px !important;
+    margin-top: 15px;
+
+
+    display: flex;
+    /* if we dont give display flex, we won't get float right,justify-content,align-items */
+    float: left !important;
+    justify-content: space-between;
+
+}
+
+#service-part .service-slider .item2 .left {
+    width: 30%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+
+}
+
+#service-part .service-slider .item2 .middle {
+    width: 10%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#service-part .service-slider .item2 .middle .img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+
+    transition: .4s;
+}
+
+#service-part .service-slider .slick-current .middle .img {
+    background-color: #fec600;
+    transform: scale(1.5);
+
+}
+
+
+
+#service-part .service-slider .item2 .right {
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+
+
+#service-part .service-slider .item2 .right #triangle-rright {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 15px solid #f1f1f1;
+    border-bottom: 20px solid transparent;
+
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+
+
+
+}
+
+
+
+
+#service-part .service-slider .item2 .right .text {
+
+    background: #f1f1f1;
+    padding: 40px 30px;
+
+
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #353535;
+    width: 451px;
+    margin: 0 auto;
+
+}
+
+
+
+#service-part .service-slider .slick-current .right .text {
+    filter: drop-shadow(8px 8px 4px #d1d1d1);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+#service-part .pprev {
+    position: absolute;
+    top: -72px;
+    left: 47.5%;
+    color: black;
+
+
+    font-size: 35px;
+    z-index: 1;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+
+#service-part .pprev:hover {
+    color: #fec600;
+}
+
+
+
+#service-part .nnext {
+    position: absolute;
+    bottom: -18.1%;
+    right: 49.8%;
+    color: black;
+
+
+    font-size: 35px;
+    z-index: 9999;
+
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+
+#service-part .nnext:hover {
+    color: #fec600;
+
+}
+
+
+
+
+/*============================
+    service-part css end
+==============================*/
+
+
+/*============================
+    service-shape css start
+==============================*/
+#service-shape {
+
+    position: relative;
+}
+
+
+
+#service-shape .shape {
+    width: 100%;
+    height: 162px;
+    background-color: white;
+    transform: skew(-87.2deg);
+    transform-origin: right top;
+    position: absolute;
+    top: 152px;
+    left: 367px;
+}
+
+
+/*============================
+    service-shape css end
+==============================*/
+
+
+
+/*============================
+    testi-part css start
+==============================*/
+
+#testi-part {
+    margin-top: 170px;
+    background: url(../image/testi.png) no-repeat center;
+    background-size: cover;
+    height: 790px;
+
+}
+
+
+#testi-part .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#testi-part .overlay .testi-slider {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15%;
+
+    position: relative;
+}
+
+
+#testi-part .overlay .testi-slider .testline {
+    background: url(../image/testline.png) center;
+    background-repeat: repeat-y;
+    width: 2px;
+
+
+
+    position: absolute;
+    top: 106px;
+    left: 111px;
+}
+
+
+#testi-part .overlay .testi-slider .left {
+
+    width: 20%;
+
+
+}
+
+
+#testi-part .overlay .testi-slider .left .item {
+    height: 100px;
+    width: 100px;
+
+
+    margin-bottom: 70px;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+#testi-part .overlay .testi-slider .left .item .img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+    background-color: #ebebeb;
+    overflow-y: hidden;
+    transition: .4s;
+
+
+
+
+}
+
+#testi-part .overlay .testi-slider .left .item .img img {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+#testi-part .overlay .testi-slider .left .item .itemlay {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    background-color: rgba(235, 235, 235, 0.6);
+    transform: scale(1);
+    transition: .4s;
+}
+
+
+
+#testi-part .overlay .testi-slider .left .slick-center .itemlay {
+/*    display: none;*/
+     transform: scale(0);
+}
+
+
+#testi-part .overlay .testi-slider .left .slick-center .img {
+    transform: scale(1.3);
+    background-color: #fec600;
+
+}
+
+
+#testi-part .tprev {
+    position: absolute;
+    top: -92px;
+    left: 43.5%;
+    color: white;
+
+
+    font-size: 35px;
+    z-index: 1;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+
+#testi-part .tprev:hover {
+    color: #fec600;
+}
+
+
+#testi-part .tnext {
+    position: absolute;
+    top: 99.2%;
+    right: 43.1%;
+    color: white;
+
+
+    font-size: 35px;
+    z-index: 9999;
+
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+
+#testi-part .tnext:hover {
+    color: #fec600;
+
+}
+
+
+
+
+
+/*-------------right-------------------*/
+
+
+
+#testi-part .overlay .testi-slider .right {
+
+    width: 70%;
+
+
+}
+
+
+
+#testi-part .testi-slider .right .text {
+
+    background-color: #f1f1f1;
+
+    padding: 60px 30px;
+
+    position: relative;
+
+    margin-top: 0.5% !important;
+}
+
+#testi-part .testi-slider .right .text h4 {
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+}
+
+
+
+#testi-part .testi-slider .right .text .logo i {
+    color: #fec600;
+}
+
+
+
+#testi-part .testi-slider .right .text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+#testi-part .testi-slider .right .text .para {
+
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    width: 668px;
+
+
+}
+
+#testi-part .testi-slider .right .text .sign {
+    width: 100%;
+
+    margin-top: 20px;
+    text-align: right;
+
+}
+
+
+#testi-part .testi-slider .right .text .sign img {
+    margin-left: auto;
+}
+
+#testi-part .testi-slider #triangle-tleft {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 15px solid #f1f1f1;
+    border-bottom: 20px solid transparent;
+
+
+    position: absolute;
+    top: 57.5%;
+    right: 70%;
+    transform: translateY(-50%);
+
+
+}
+
+
+
+
+
+
+/*============================
+    testi-part css end
+==============================*/
+
+
+/*============================
+    testi-shape css start
+==============================*/
+#testi-shape {
+
+    position: relative;
+}
+
+
+
+#testi-shape .shape {
+    width: 100%;
+    height: 307px;
+    background-color: white;
+    transform: skew(-87.2deg);
+    transform-origin: left bottom;
+    position: absolute;
+    top: -291px;
+    left: -322px;
+
+}
+
+/*============================
+    testi-shape css end
+==============================*/
+
+
+
+
+/*============================
+    price-part css start
+==============================*/
+
+#price-part {
+    margin-top: 35px;
+}
+
+
+#price-part .container .row {
+
+    height: 450px;
+    width: 100%;
+
+
+
+}
+
+
+#price-part .row .item {
+    background-color: #f1f1f1;
+}
+
+
+#price-part .row .item .top {
+
+
+    padding-top: 28px;
+    padding-bottom: 95px;
+
+    background-color: #353535;
+    color: white;
+
+
+    text-align: center;
+    clip-path: polygon(0 1%, 100% 0, 100% 77%, 0% 100%);
+
+    transition: .4s;
+
+}
+
+#price-part .row .item .top p {
+    display: inline-block;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+
+}
+
+
+
+#price-part .row .item .middle {
+    position: relative;
+
+}
+
+
+
+#price-part .row .item .middle .round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #353535;
+    background: white;
+
+
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    position: relative;
+}
+
+
+#price-part .row .item .middle .round .rou {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #353535;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    text-align: center;
+    align-items: center;
+
+    transition: .4s;
+
+
+
+
+}
+
+
+#price-part .row .item .middle .round .rou p {
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+
+    margin-top: 15px;
+    color: white;
+
+
+}
+
+
+
+#price-part .row .item .middle .round .rou .per {
+
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+
+    margin-top: -3px;
+    color: white;
+}
+
+
+
+#price-part .row .item .middle ul {
+    margin-top: -60px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+
+#price-part .row .item .middle ul li {
+
+    text-align: center;
+    margin-top: 15px;
+
+
+
+    margin: 0 auto;
+
+
+
+
+
+}
+
+
+
+
+#price-part .row .item .bottom {
+
+    padding-top: 40px;
+    padding-bottom: 28px;
+    background-color: #353535;
+    text-align: center;
+    clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 100%);
+
+    transition: .4s;
+
+
+    margin-top: -15px;
+}
+
+
+#price-part .row .item .bottom a {
+
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+    font-weight: 500;
+    color: white;
+
+
+}
+
+
+#price-part .row .item:hover .top {
+
+    background-color: #fec600;
+    cursor: pointer;
+}
+
+
+
+
+#price-part .row .item:hover .middle .rou {
+
+    background-color: #fec600;
+    cursor: pointer;
+}
+
+
+#price-part .row .item:hover .bottom {
+
+    background-color: #fec600;
+    cursor: pointer;
+}
+
+
+/*============================
+    price-part css end
+==============================*/
+
+
+
+
+
+
+/* ======================================
+            counter css start
+========================================= */
+
+
+#counter-part {
+    margin-top: 100px;
+    color: #fff;
+    padding: 50px 20px;
+
+
+    background: url(../image/counter.png) no-repeat center;
+    background-size: cover;
+
+
+    transform: skewY(-3deg);
+
+
+}
+
+#counter-part .box {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#counter-part .box .text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+#counter-part .box .text p {
+    margin-top: 13px;
+}
+
+#counter-part .box .text {
+    transform: skewY(3deg);
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+            counter css end
+========================================= */
+
+
+
+
+
+/* ======================================
+            team part css start
+========================================= */
+
+.btop{
+    padding: 10px;
+    background-color: darkgreen;
+    color:white;
+    display:inline-block;
+    
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    
+}
+
+
+
+#team-part {
+    margin-top: 35px;
+}
+
+
+#team-part .row {
+    height: 350px;
+
+
+}
+
+#team-part .row .box{
+    background-color: white;
+     border: 1px solid #dddddd;
+    
+    transition: .3s;
+  
+}
+
+#team-part .row .box .img{
+    overflow-x: hidden;
+    
+    position:relative;
+    
+
+  
+}
+
+#team-part .row .box .img .overlay{
+
+  position: absolute;
+    top:0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    opacity: 0;
+    
+    background-color:rgba(254, 198, 0,.5);
+    
+   clip-path: polygon(0 0%, 100% 0, 100% 86%, 0% 100%);
+    
+    transition: .3s;
+    
+ 
+    
+}
+
+
+
+
+#team-part .row .box .img .overlay .plus{
+   position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+    
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 33px;
+    text-align: center;
+    
+    color: black;
+    cursor: pointer;
+    
+    
+}
+
+
+#team-part .row .box:hover .img .overlay {
+
+    opacity: 1;
+
+}
+
+
+
+
+#team-part .row .box .text {
+
+
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+#team-part .row .box .text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+
+
+
+}
+
+#team-part .row .box .text p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    margin-top: 7px;
+
+
+
+
+}
+
+#team-part .row .box .logo{
+    
+    display: flex;
+    justify-content: space-between;
+ 
+    padding: 0 40px;
+    padding-bottom: 24px;
+    padding-top: 17px;
+    
+    transition: .3s;
+
+    height: 0;
+    
+    opacity: 0;
+
+
+    
+}
+
+
+#team-part .row .box .logo i{
+    
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+    
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+    
+    transition: .3s;
+    cursor: pointer;
+   
+}
+
+
+#team-part .row .box:hover .logo{
+ 
+   height: 100%;
+    opacity: 1;
+
+}
+
+
+
+#team-part .row .box .logo i:hover{
+    
+    
+    background-color:#fec600;
+    border: 1px solid #fec600;
+}
+
+
+/* ======================================
+            team part css end
+========================================= */
+
+
+/* ======================================
+            teambb part css start
+========================================= */
+#teambb-part {
+    margin-top: 113px;
+
+    color: #fff;
+    padding: 50px 0;
+
+    background-color: #f1f1f1;
+
+
+    transform: skewY(-3deg);
+
+
+}
+
+
+#teambb-part .row {}
+
+#teambb-part .row .box {
+
+    padding: 29px 9px;
+    border: 1px solid #cccccc;
+
+    transition: .4s;
+
+
+}
+
+#teambb-part .row .box img {
+
+
+    transform: skewY(0deg);
+
+
+}
+
+#teambb-part .row .box:hover {
+    border: 1px solid #fdc80c;
+
+}
+
+
+
+
+
+/* ======================================
+            teambb part css end
+========================================= */
+
+
+
+
+/* ======================================
+            hunt part css start
+========================================= */
+
+
+
+#hunt-part {
+
+
+    color: #fff;
+    padding: 50px 0;
+
+    background-color: #222222;
+
+
+    transform: skewY(-3deg);
+    text-align: center;
+
+    border-bottom: 2px solid #525252;
+}
+
+
+
+#hunt-part img {
+
+    transform: skewY(3deg);
+}
+
+
+
+
+/* ======================================
+            hunt part css end
+========================================= */
+
+
+/*============================
+      hunt shape css start
+==============================*/
+#hunt-shape {
+    position: relative;
+    z-index: -1;
+}
+
+
+
+#hunt-shape .hshape {
+
+
+    width: 100%;
+    height: 80px;
+    background-color: #222222;
+
+
+    position: absolute;
+    top: -72px;
+    left: 0;
+
+
+    transform: skew(-87deg);
+    transform-origin: left bottom;
+
+
+}
+
+
+
+
+/*============================
+    hunt shape css end
+==============================*/
+
+
+/* ======================================
+            huntbb part css start
+========================================= */
+
+#huntbb-part {
+
+
+    color: #fff;
+    padding: 50px 0;
+
+    background-color: #222222;
+    text-align: center;
+
+
+    ;
+
+}
+
+#huntbb-part .box {
+
+
+
+    border-right: 1px solid #555555;
+}
+
+
+
+#huntbb-part .box .logo {
+    text-align: center;
+}
+
+#huntbb-part .box .logo i {
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #fdc80c;
+    line-height: 32px;
+
+    color: #222222;
+
+}
+
+#huntbb-part .box .det {
+    margin-top: 15px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#huntbb-part .box .det p {
+    display: inline-block;
+}
+
+#huntbb-part .fo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+}
+
+#huntbb-part .llogo {
+
+    width: 323px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+
+
+#huntbb-part .llogo i {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 37px;
+
+    color: #222222;
+    background-color: white;
+    transition: .4s;
+
+}
+
+
+#huntbb-part .llogo i:hover {
+
+    background-color: #fec600;
+}
+
+
+
+/* ======================================
+            huntbb part css end
+========================================= */
+
+
+
+
+/* ======================================
+            end part css start
+========================================= */
+
+#end-part {
+    padding: 20px 0;
+    background-color: #353535;
+    text-align: center;
+}
+
+
+
+#end-part p {
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+}
+
+
+#end-part span {
+    color: #fec600;
+}
+
+/* ======================================
+            end part css end
+========================================= */

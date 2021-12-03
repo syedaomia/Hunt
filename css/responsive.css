@@ -1,0 +1,636 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    /*====================
+    nav part start
+======================*/
+    nav {
+        top: 0;
+         z-index: 2;
+    }
+
+
+    nav ul {
+        background: black;
+        text-align: center;
+    }
+
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+
+    nav ul li a:hover:after {
+        width: 0;
+    }
+
+
+    /*====================
+        nav part end
+   ======================*/
+
+
+    /*====================
+        banner part start
+   ======================*/
+
+    #banner-part .overlay p {
+        width: auto;
+    }
+
+    #banner-part .banner {
+        height: 650px;
+
+    }
+
+    #banner-part .banner2 {
+        height: 650px;
+
+    }
+
+
+
+    #banner-part .overlay {
+        height: 650px;
+
+    }
+
+    #banner-part ul {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 999;
+
+    }
+
+
+
+
+    #banner-part ul li {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+
+
+
+    #banner-part ul li button {
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+
+        border: 0;
+
+        background-color: transparent;
+        border: 1px solid white;
+
+
+    }
+
+
+    #banner-part ul .slick-active button {
+
+        background-color: #fec600;
+        border: 1px solid #fec600;
+    }
+
+
+
+
+    /*====================
+        banner part end
+   ======================*/
+
+    /*====================
+    banner shape part start
+    ======================*/
+
+    #banner-shape {
+        display: none;
+    }
+
+
+
+
+
+    /*====================
+    banner shape part end
+   ======================*/
+
+
+    /*====================
+      about part start
+   ======================*/
+
+    #about-part .title p {
+        width: auto;
+    }
+
+    #about-part .item i {
+
+        display: none;
+    }
+
+
+    #about-part .item p {
+        width: auto;
+    }
+
+    #about-part #triangle-left {
+        display: none;
+    }
+
+    #about-part #triangle-right {
+        display: none;
+    }
+
+    #about-part #triangle-up {
+        display: none;
+    }
+
+
+    #about-part #triangle-down {
+        display: none;
+    }
+
+
+    #about-part .img {
+        width: 250px;
+        height: 250px;
+        line-height: 250px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+
+
+    #about-part .img img {
+        width: 210px;
+        height: 210px;
+
+        border-radius: 50%;
+    }
+
+    /*====================
+       about part end
+   ======================*/
+
+
+    /*=====================   
+    port-shape part start
+  =========================--*/
+    #port-shape .shape {
+        display: none;
+    }
+
+
+
+    /*--=====================   
+    port-shape part end
+  =========================--*/
+
+
+    /*--=====================   
+    port part start
+=========================--*/
+
+    #port-part .title p {
+
+
+        width: auto;
+    }
+
+
+
+
+
+
+
+
+    /*--=====================   
+    port part end
+=========================--*/
+
+
+    /*============================
+    pport-shape start
+==============================*/
+
+    #pport-shape .shape {
+
+        display: none;
+    }
+
+
+    /*============================
+    pport-shape end
+==============================*/
+
+    /*============================
+    service part start
+==============================*/
+
+
+
+    #service-part .title p {
+        width: auto;
+    }
+
+
+
+    #service-part .item .restitle {
+        display: block;
+
+
+    }
+
+    #service-part .item2 .restitle {
+        display: block;
+
+
+    }
+
+
+    #service-part .line {
+        display: none;
+    }
+
+
+
+
+    #service-part .service-slider .item {
+        width: 300px !important;
+        align-items: center;
+        margin-top: 0 !important;
+
+
+
+    }
+
+
+
+
+    #service-part .service-slider .item2 {
+
+        width: 300px !important;
+        align-items: center !important;
+        margin-top: 0 !important;
+
+
+
+    }
+
+
+
+
+    #service-part .service-slider .item .left {
+        display: none !important;
+    }
+
+
+
+    #service-part .service-slider .item .middle {
+        display: none !important;
+    }
+
+    #service-part .service-slider .item .right .textt {
+        padding: 25px 25px;
+
+        width: 308px;
+        text-align: center;
+
+
+    }
+
+    #service-part .service-slider .item .right .textt .pp {
+        display: none;
+
+    }
+
+
+
+    #service-part .service-slider .item2 .left {
+        display: none !important;
+    }
+
+
+
+    #service-part .service-slider .item2 .middle {
+        display: none !important;
+    }
+
+
+
+    #service-part .service-slider .item2 .right .text {
+        padding: 25px 25px;
+        width: 308px;
+        text-align: center;
+
+
+    }
+
+    #service-part .service-slider .item2 .right .text .pp {
+        display: none;
+
+    }
+
+
+
+    #service-part .service-slider .item .right #triangle-lleft {
+        display: none;
+    }
+
+    #service-part .service-slider .item2 .right #triangle-rright {
+        display: none;
+    }
+
+    /*============================
+    service part  end
+==============================*/
+
+
+    /*============================
+    service-shape  start
+==============================*/
+
+
+    #service-shape .shape {
+        display: none;
+
+    }
+
+
+    /*============================
+    service-shape  end
+==============================*/
+
+
+
+
+
+    /*============================
+    testi-part  start
+==============================*/
+    #testi-part {
+        height: 700px;
+    }
+
+    #testi-part .testline {
+        display: none;
+    }
+
+    #testi-part .ss {
+        display: none;
+    }
+
+    #testi-part #triangle-tleft {
+        border-top: 5px solid transparent !important;
+        border-right: 5px solid #f1f1f1 !important;
+        border-bottom: 5px solid transparent !important;
+    }
+
+    #testi-part .overlay .testi-slider .left {
+
+        width: 30%;
+    }
+
+
+    #testi-part .overlay .testi-slider .left .item .itemlay {
+        height: 60px;
+        width: 60px;
+
+        top: 75px;
+        left: 13px;
+
+    }
+
+    #testi-part .tprev {
+
+        top: -20px;
+        left: 33.5%;
+    }
+
+
+    #testi-part .tnext {
+
+        top: 108.2%;
+        right: 33.5%;
+    }
+
+    #testi-part .testi-slider .left .item .img {
+        width: 60px !important;
+        height: 60px !important;
+        margin-top: 75px;
+    }
+
+
+
+
+
+    #testi-part .testi-slider .left .item .img img {
+        margin-top: 5px;
+    }
+
+
+    #testi-part .testi-slider .right .text .para {
+        width: auto;
+    }
+
+    #testi-part .overlay .testi-slider .left .slick-center .img {
+        transform: scale(1.1);
+        background-color: #fec600;
+
+    }
+
+
+
+    /*============================
+    testi-part  end
+==============================*/
+
+    /*============================
+    testi-shape start
+==============================*/
+
+
+    #testi-shape .shape {
+        display: none;
+
+    }
+
+    /*============================
+    testi-shape  end
+==============================*/
+
+
+
+    /*============================
+    price-part start
+==============================*/
+
+    #price-part .title p {
+        width: auto;
+    }
+
+    #price-part .row .item {
+        margin-right: -32px;
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+
+
+    /*============================
+    price-part end
+==============================*/
+
+
+
+    /*============================
+    counter-part start
+==============================*/
+
+    #counter-part {
+        margin-top: 1000px;
+        color: #fff;
+        padding: 50px 20px;
+
+
+        background: url(../image/counter.png) no-repeat center;
+        background-size: cover;
+        height: 700px;
+
+
+        transform: skew(0) !important;
+        margin-bottom: -115px !important;
+
+
+
+    }
+
+
+    #counter-part .row {
+
+        margin-top: 87px;
+
+    }
+
+    #counter-part .bb {
+        margin-top: 6px;
+    }
+
+    #counter-part .box .text {
+        transform: skewY(0deg) !important;
+    }
+
+
+    #counter-part .box .text p {
+
+        font-size: 22px;
+    }
+
+    #counter-part .box .text h2 {
+
+        font-size: 22px;
+    }
+
+
+
+
+
+
+    /*============================
+    counter-part end
+==============================*/
+
+
+    /* ======================================
+            team part  start
+========================================= */
+
+
+    #team-part {
+        margin-top: 40px !important;
+    }
+
+    #team-part .title p {
+        width: auto;
+    }
+
+
+
+    #team-part .row .box {
+        margin-top: 15px;
+    }
+
+
+    #team-part .row .box .img img {
+        width: 100%
+    }
+
+
+
+
+
+    /* ======================================
+            team part  end
+========================================= */
+
+
+
+
+    /* ======================================
+            teambb part  start
+========================================= */
+
+
+    #teambb-part {
+        margin-top: 1370px;
+        transform: skewY(0deg);
+
+    }
+
+    /* ======================================
+            teambb part  end
+========================================= */
+
+    /* ======================================
+            hunt part  start
+========================================= */
+
+
+
+    #hunt-part {
+
+        transform: skewY(0deg);
+
+    }
+
+
+
+    /* ======================================
+            hunt part  end
+========================================= */
+
+
+    /* ======================================
+            huntbb part  start
+========================================= */
+    #huntbb-part .llogo {
+        width: 292px;
+    }
+
+    #huntbb-part .box {
+        border-right: 0px solid #555;
+    }
+
+
+    /* ======================================
+            huntbb part  end
+========================================= */
